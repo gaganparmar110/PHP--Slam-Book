@@ -34,7 +34,7 @@
           <input type='text'  name="user" placeholder="Enter your name" />
           <input type='text' name="message" placeholder="Enter message" />
           <br />
-          <input class="shout-btn"type="submit" name="submit" value="Shout It LOUD" />
+          <input class="shout-btn"type="submit" name="submit" value="Submit" />
         </form>
       </div>
     </div>
