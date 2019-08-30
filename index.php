@@ -1,7 +1,7 @@
  <?php include "database.php"; ?>
 
 <?php
-	//Create Select Query
+	
   $query="select * from box order by time desc limit 100";
   $box = mysqli_query($con,$query);
 ?>
