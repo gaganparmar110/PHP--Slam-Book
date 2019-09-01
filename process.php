@@ -2,13 +2,13 @@
 
 include 'database.php';
 
-//Check if form was submitted
+
 if(isset($_POST['submit'])){
 	$user=mysqli_real_escape_string($con, $_POST['user']);
 	$message=mysqli_real_escape_string($con, $_POST['message']);
 
-	//Set Timezone
-	date_default_timezone_set('America/New_York');
+
+	date_default_timezone_set('indian/cocos');
 	$time = date('h:i:s a', time());
 
 	if(!isset($user) || $user=='' || !isset($message) || $message==''){

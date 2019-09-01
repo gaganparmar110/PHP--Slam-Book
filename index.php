@@ -21,7 +21,8 @@
       	<ul>
 	  <?php while ($row=mysqli_fetch_assoc($box)): ?>
       	    <li class="shout">
-	      <span><?php echo $row['time'];  ?> - </span><strong><?php echo $row['user'];  ?>:</strong> <?php echo $row['message'];  ?>
+	      <span><?php echo $row['time'];  ?> - </span><strong><?php echo $row['user'];  ?>:</strong> 
+        <?php echo $row['message'];  ?>
 	    </li>
 	  <?php endwhile; ?>
       	</ul>
